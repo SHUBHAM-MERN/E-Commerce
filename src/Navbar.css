@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    font-family: 'Acme', sans-serif;
+    z-index: 4;
+    background-color: rgb(252, 197, 19);
+    position: sticky;
+    top: 0;
+    height: 80px;
+
+}
+
+.navbar_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  
+}
+.navbar_img_logo img{
+    margin-left: 10px;
+    height: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+.navbar_img_logo{
+    display: flex;
+    align-items: center;
+   
+}
+.navbar_rightsection ul{
+    list-style: none;
+   
+}
+
+.left_section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    width: 50%;
+
+}
+.navbar_search  {
+    display: flex;
+   align-items: center;
+   margin-left: 10px;
+   margin-top: 5px;
+   height: 40px;
+}
+.navbar_search input[type="text"]{
+    width: 600px;
+ 
+}
+.navbar_search input,button{
+    height: 100%;
+    border-radius: 3PX;
+}
+.navbar_search button{
+    font-size: 20px;
+    width: 50px;
+    position: relative;
+    right: 2px;
+}
+
+.navbar_rightsection ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.navbar_rightsection a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.navbar_rightsection a li:hover{
+   color: rgb(48, 47, 47);
+   position: relative;
+   bottom: 4px;
+}
+.navbar_rightsection ul li{
+    margin: 20px;
+}
+.navbar_rightsection {
+    width: 50%;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.product_info{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-rows: repeat(3,300px);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+    margin-top: 15px;
+
+}
+.Cart_flex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.Cart_flex img{
+    z-index: 0;
+    margin-top: -23px;
+    margin-left: -5px;
+}
+.Cart_flex span{
+    z-index: 1;
+    margin-top: -7px;
+    color: white;
+}
+.cart_img{
+    display: flex;
+align-items: center;
+}
+.navbar2{
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.nevbar2_right{
+    width: 80%;
+}
+.navbar2 ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.navbar2 a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255,0.6);
+}
+#popupmenu{
+    position: fixed;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+   
+   z-index: 4;
+    width: 0%;
+    height: 100vh;
+    color: purple;
+    overflow-y: scroll;
+    transition-property: opacity,width;
+    transition-duration: .2s;
+    display: flex;
+
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
+.side_menu{
+    cursor: pointer;
+    z-index: 3;
+}
+.sidemenu a,li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.sidemenue li{
+    padding-top: 20px;
+}
+.sidemenu div{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+}
+.sidemenu div h3{
+    color: rgb(19, 12, 12);
+    margin-left: 12px;
+}
+.sidemenu div  li{
+    padding: 22px;
+    text-align: center;
+    border-bottom: 1px solid rgba(20, 20, 20,.1);
+   
+}
+.sidemenu div  li:hover{
+    border-bottom: 1px solid rgba(20, 20, 20,.4);
+}
+.insider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    flex: .2;
+    
+}
+.close{
+    margin-left: 20%;
+    cursor: pointer;
+}
+.display_blur{
+    flex: 0.8;
+    width: 500px;
+    height: 100%;
+   background-color: rgba(1, 0, 0,0);
+    
+}

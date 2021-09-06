@@ -1,0 +1,29 @@
+.main_Cart_itom{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgb(226, 224, 224);
+    margin-left: 20px;
+
+}
+.main_Cart_itom .first_img{
+   align-items: center;
+    display: flex;
+    height: 100%;
+  
+  
+   
+}
+.main_Cart_itom .first_img img{
+  align-items: center;
+}
+.main_Cart_itom .product_detail{
+    margin-top: 26px;
+    padding: 10px;
+    height: fit-content;
+}
+.main_Cart_itom .product_detail p{
+    padding: 8px;
+}

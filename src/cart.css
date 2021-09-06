@@ -1,0 +1,50 @@
+
+.cart_main{
+    width: 100%;
+    height: 200vh;
+    background: #3D7EAA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.cart_main h1{
+
+    text-align: center;
+   
+}
+.placeorder{
+    width: 90%;
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.placeorder .cart_btn{
+
+    
+ height: 30px;  
+margin-top: 15px;
+width: 100%;
+}
+.placeorder button{
+    cursor: pointer;
+    width: 95%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.placeorder button:hover{
+    background-color: rgb(226, 224, 224);
+}
+.inside_placeorder{
+    width: 20%;
+    height: 90px;
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    
+}
+.inside_placeorder p{
+    margin-top: 12px;
+
+}

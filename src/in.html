@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+     <style>
+         *{
+             margin: 0px;
+             padding: 0px0;
+             box-sizing: border-box;
+         }
+         body{
+             background-image: url(./photoonline.jpg);
+             background-size: 90% 57%;
+             background-position-x: center;
+             opacity: .8;
+     background-repeat: no-repeat;
+     height: 100vh;
+     text-align: center;
+     height: 100vh;
+     width: 100vw;
+         }
+         li{
+             display: inline-flex;
+             padding: 12px;
+             margin: 12px;
+            
+         }
+         nav{
+            background-color: blueviolet;
+         }
+         .popup{
+             display: none;
+         }
+         .popup ul{
+            
+             background-color: blueviolet;
+            padding: 0px;
+         }
+         .popup ul {
+             position: absolute;
+             margin-left: -55px ;
+             margin-top: 15px;
+             
+             
+         }
+         .popup ul li{
+             display: flex;
+            text-align: center;
+         }
+         ul li:hover .popup {
+             display: inline;
+            
+         }
+     </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home
+                <div class="popup">
+                    <ul>
+                        <li>more</li>
+                        <li>more</li>
+                        <li>more</li>
+                        <li>more</li>
+                    </ul>
+                </div>
+            </li>
+            <li>about
+                <div class="popup">
+                    <ul>
+                        <li>more</li>
+                        <li>more</li>
+                        <li>more</li>
+                        <li>more</li>
+                    </ul>
+                </div>
+            </li>
+            <li>docs</li>
+            <li>apis</li>
+            <li>services</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+</body>
+</html>

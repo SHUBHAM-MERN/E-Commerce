@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .child{
+            
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: white;
+        }
+        .insidemain{
+            width: 80%;
+            height: 80%;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="insidemain">
+
+            <div class="child"></div>
+        </div>
+    </div>
+</body>
+</html>
