@@ -67,19 +67,16 @@ function Navbar() {
             <div>
               <ul>
                 <Link to={Cookies.get("login_jwt") ? "/signup" : "/login"}>
-                  {" "}
                   <li id="signout" onClick={signout}>
                     {Cookies.get("login_jwt") ? "Sign Out" : "Sign In"}
                   </li>
                 </Link>
                 <Link to="/login">
-                  {" "}
                   <li>
                     Login <p>To GRAVITY</p>
                   </li>
                 </Link>
                 <Link to="/login">
-                  {" "}
                   <li>Prime Membership</li>
                 </Link>
               </ul>
@@ -187,7 +184,7 @@ function Navbar() {
         </div>
       </div>
 
-      {display && <Dropbox fun={setDisplay} closefun = {closemenu}></Dropbox>}
+      {display && <Dropbox fun={setDisplay} closefun={closemenu}></Dropbox>}
     </>
   );
 }

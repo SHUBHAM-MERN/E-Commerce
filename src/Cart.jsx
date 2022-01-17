@@ -7,7 +7,7 @@ import './cart.css'
 
 function Cart() {
     const product_state = useSelector((selector) => selector.doaddtocart);
-    console.log(product_state)
+    
    
    
     return (
